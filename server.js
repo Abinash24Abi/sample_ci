@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get("/" , (req,res) => {
-   res.send("Welcom to CD")
+   res.send("Welcom to CI/CD")
 });
 
 
