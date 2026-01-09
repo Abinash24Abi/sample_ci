@@ -6,7 +6,7 @@ describe("Server TEST",() => {
         const res = await request(app).get('/')
 
         expect(res.statusCode).toBe(200)
-        expect(res.text).toBe("Welcom to CI/CD")
+        expect(res.text).toBe("Welcome to CI/CD")
     })
 })
 
