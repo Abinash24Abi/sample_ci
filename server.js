@@ -3,8 +3,9 @@ const express = require('express');
 const app = express();
 
 app.get("/" , (req,res) => {
-   res.send("Welcom to CI/CD")
+   res.send("Welcome to CI/CD")
 });
+
 
 
 const server = app.listen(8080,() => {
